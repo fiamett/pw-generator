@@ -26,6 +26,31 @@
         </div>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
+
+          <div class="selectors">
+            <span>
+            <input type="checkbox" id="caps" name="caps" value="caps">
+            <label for="caps">Capitals?</label>
+              </span>
+            <span>
+            <input type="checkbox" id="lower" name="lower" value="lower">
+            <label for="lower">Lowercase?</label>
+            </span>
+            <span>
+            <input type="checkbox" id="nums" name="nums" value="nums">
+            <label for="nums">Numbers?</label>
+            </span>
+            <span>
+            <input type="checkbox" id="spec" name="spec" value="spec">
+            <label for="spec">Special Characters?</label>
+            </span>
+            <span>
+            <input type="range" id="length" name="length" min="8" max="128" value="8">
+            <label for="length">length 8 - 128?</label>
+            </span>
+          </div>
+          <!--checkboxes and a slider for each type and also length put into span elements so that the labels and boxes stay together-->
+
         </div>
       </div>
     </div>
